@@ -4,7 +4,6 @@
 #
 %define		pdir	UUID
 %define		pnam	Tiny
-%include	/usr/lib/rpm/macros.perl
 Summary:	UUID::Tiny - Pure Perl UUID Support With Functional Interface
 Summary(pl.UTF-8):	UUID::Tiny - czysto perlowa obsługa UUID-ów z interfejsem funkcyjnym
 Name:		perl-UUID-Tiny
