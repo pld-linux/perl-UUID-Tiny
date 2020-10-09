@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	UUID
 %define		pnam	Tiny
@@ -14,9 +14,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/UUID/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2d7c18711e64e0a64cc7c7fbb870947e
-URL:		http://search.cpan.org/dist/UUID-Tiny/
+URL:		https://metacpan.org/release/UUID-Tiny
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Digest-MD5
 BuildRequires:	perl-MIME-Base64
