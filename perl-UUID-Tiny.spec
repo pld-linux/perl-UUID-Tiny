@@ -8,7 +8,7 @@ Summary:	UUID::Tiny - Pure Perl UUID Support With Functional Interface
 Summary(pl.UTF-8):	UUID::Tiny - czysto perlowa obsługa UUID-ów z interfejsem funkcyjnym
 Name:		perl-UUID-Tiny
 Version:	1.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
